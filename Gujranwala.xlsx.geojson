@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Gujranwala.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GGPS Nitherkay", "Sr__No": 231.0, "District": "Gujranwala", "Village": "Nitherkay", "EMIS_Code": 34140436.0, "Latitude": 31.970362, "Longitude": 73.830895, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 34140436, "Map Name": "N/A", "No": 231 }, "geometry": { "type": "Point", "coordinates": [ 73.830895, 31.970362 ] } }
+]
+}

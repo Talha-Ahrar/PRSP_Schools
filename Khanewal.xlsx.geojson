@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Khanewal.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GGPS Basti Bahawalpur", "Sr__No": 234.0, "District": "Khanewal", "Village": "Basti Bahawalpur", "EMIS_Code": 36410605.0, "Latitude": 30.392106, "Longitude": 71.840719, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36410605, "Map Name": "N/A", "No": 234 }, "geometry": { "type": "Point", "coordinates": [ 71.840719, 30.392106 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS 13/9-R Kacha Khuh", "Sr__No": 235.0, "District": "Khanewal", "Village": "13/9-R Kacha Khuh", "EMIS_Code": 36410453.0, "Latitude": 30.463317, "Longitude": 72.073222, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36410453, "Map Name": "N/A", "No": 235 }, "geometry": { "type": "Point", "coordinates": [ 72.073222, 30.463317 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Sasrana", "Sr__No": 236.0, "District": "Khanewal", "Village": "Sasrana", "EMIS_Code": 36410471.0, "Latitude": 30.600469, "Longitude": 72.141974, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36410471, "Map Name": "N/A", "No": 236 }, "geometry": { "type": "Point", "coordinates": [ 72.141974, 30.600469 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Hussain Abad Som", "Sr__No": 237.0, "District": "Khanewal", "Village": "Hussain Abad Som", "EMIS_Code": 36410594.0, "Latitude": 30.517917, "Longitude": 72.002166, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36410594, "Map Name": "N/A", "No": 237 }, "geometry": { "type": "Point", "coordinates": [ 72.002166, 30.517917 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS 66/10-R", "Sr__No": 238.0, "District": "Khanewal", "Village": "66/10-R", "EMIS_Code": 36420587.0, "Latitude": 30.202862, "Longitude": 72.051758, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36420587, "Map Name": "N/A", "No": 238 }, "geometry": { "type": "Point", "coordinates": [ 72.051758, 30.202862 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Fazal Wala", "Sr__No": 239.0, "District": "Khanewal", "Village": "Fazal Wala", "EMIS_Code": 36410393.0, "Latitude": 30.289791, "Longitude": 71.78757, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36410393, "Map Name": "N/A", "No": 239 }, "geometry": { "type": "Point", "coordinates": [ 71.78757, 30.289791 ] } }
+]
+}

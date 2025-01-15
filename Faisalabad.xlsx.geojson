@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Faisalabad.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS Chak No. 123 GB", "Sr__No": 228.0, "District": "Faisalabad", "Village": "Chak No. 123 GB", "EMIS_Code": 33120005.0, "Latitude": 31.32002983, "Longitude": 73.32728682, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 33120005, "Map Name": "N/A", "No": 228 }, "geometry": { "type": "Point", "coordinates": [ 73.32728682, 31.32002983 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS 20 JB", "Sr__No": 229.0, "District": "Faisalabad", "Village": "20 JB", "EMIS_Code": 33150096.0, "Latitude": 31.464714, "Longitude": 73.132045, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 33150096, "Map Name": "N/A", "No": 229 }, "geometry": { "type": "Point", "coordinates": [ 73.132045, 31.464714 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS 29 GB", "Sr__No": 230.0, "District": "Faisalabad", "Village": "29 GB", "EMIS_Code": 33120022.0, "Latitude": 31.223102, "Longitude": 73.259156, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 33120022, "Map Name": "N/A", "No": 230 }, "geometry": { "type": "Point", "coordinates": [ 73.259156, 31.223102 ] } }
+]
+}

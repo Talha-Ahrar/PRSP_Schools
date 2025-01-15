@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Vehari.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GGPS Ganwain", "Sr__No": 443.0, "District": "Vehari", "Village": "Ganwain", "EMIS_Code": 36320663.0, "Latitude": 29.714477, "Longitude": 72.161315, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36320663, "Map Name": "N/A", "No": 443 }, "geometry": { "type": "Point", "coordinates": [ 72.161315, 29.714477 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS Wahgray Wala", "Sr__No": 444.0, "District": "Vehari", "Village": "Wahgray Wala", "EMIS_Code": 36320535.0, "Latitude": 29.754292, "Longitude": 72.140275, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36320535, "Map Name": "N/A", "No": 444 }, "geometry": { "type": "Point", "coordinates": [ 72.140275, 29.754292 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS Har Do Ganmb", "Sr__No": 445.0, "District": "Vehari", "Village": "Har Do Ganmb", "EMIS_Code": 36320615.0, "Latitude": 29.749394, "Longitude": 72.110996, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 36320615, "Map Name": "N/A", "No": 445 }, "geometry": { "type": "Point", "coordinates": [ 72.110996, 29.749394 ] } }
+]
+}

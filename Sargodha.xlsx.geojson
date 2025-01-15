@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Sargodha.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS Chak No. 94 SB", "Sr__No": 438.0, "District": "Sargodha", "Village": "Chak No. 94 SB", "EMIS_Code": 38420292.0, "Latitude": 31.992914, "Longitude": 72.821506, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 38420292, "Map Name": "N/A", "No": 438 }, "geometry": { "type": "Point", "coordinates": [ 72.821506, 31.992914 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Dera Sher Wala", "Sr__No": 439.0, "District": "Sargodha", "Village": "Dera Sher Wala", "EMIS_Code": 38460577.0, "Latitude": 30.83729452, "Longitude": 73.44610949, "Remarks": "Not looks like school building", "Map_Name": "N/A", "EMIS Code": 38460577, "Map Name": "N/A", "No": 439 }, "geometry": { "type": "Point", "coordinates": [ 73.44610949, 30.83729452 ] } },
+{ "type": "Feature", "properties": { "Name": "GGCMS Dera Fateh Muhammad", "Sr__No": 440.0, "District": "Sargodha", "Village": "Dera Fateh Muhammad", "EMIS_Code": 38460649.0, "Latitude": 30.87421251, "Longitude": 73.44041103000001, "Remarks": "Not looks like school building", "Map_Name": "N/A", "EMIS Code": 38460649, "Map Name": "N/A", "No": 440 }, "geometry": { "type": "Point", "coordinates": [ 73.44041103, 30.87421251 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Dera Mehmood Chak 100 SB", "Sr__No": 441.0, "District": "Sargodha", "Village": "Dera Mehmood Chak 100 SB", "EMIS_Code": 38420526.0, "Latitude": 31.97275175, "Longitude": 72.79712578, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 38420526, "Map Name": "N/A", "No": 441 }, "geometry": { "type": "Point", "coordinates": [ 72.79712578, 31.97275175 ] } }
+]
+}

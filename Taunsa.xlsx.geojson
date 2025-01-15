@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Taunsa.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS SORAH", "Sr__No": 216.0, "District": "D.G Khan", "Village": "SORAH", "EMIS_Code": 32120404.0, "Latitude": 30.507907, "Longitude": 70.221847, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32120404, "Map Name": "N/A", "No": 216 }, "geometry": { "type": "Point", "coordinates": [ 70.221847, 30.507907 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS MUHAMMAD KHAN BUZDAR", "Sr__No": 221.0, "District": "D.G Khan", "Village": "MUHAMMAD KHAN BUZDAR", "EMIS_Code": 32111324.0, "Latitude": 30.385865, "Longitude": 70.243328, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32111324, "Map Name": "N/A", "No": 221 }, "geometry": { "type": "Point", "coordinates": [ 70.243328, 30.385865 ] } },
+{ "type": "Feature", "properties": { "Name": "GGMPS Basti Raheem Bakhsh", "Sr__No": 220.0, "District": "D.G Khan", "Village": "Basti Raheem Bakhsh", "EMIS_Code": 32122052.0, "Latitude": 30.320536, "Longitude": 70.047059, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32122052, "Map Name": "N/A", "No": 220 }, "geometry": { "type": "Point", "coordinates": [ 70.047059, 30.320536 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS BASTI GHULAM RASOOL", "Sr__No": 210.0, "District": "D.G Khan", "Village": "BASTI GHULAM RASOOL", "EMIS_Code": 32120698.0, "Latitude": 30.246913, "Longitude": 70.031961, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32120698, "Map Name": "N/A", "No": 210 }, "geometry": { "type": "Point", "coordinates": [ 70.031961, 30.246913 ] } }
+]
+}

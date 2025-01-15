@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Jhang.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GGPS 10 Thal Hardly", "Sr__No": 232.0, "District": "Jhang", "Village": "10 Thal Hardly", "EMIS_Code": 33251471.0, "Latitude": 29.76524874, "Longitude": 72.66882978, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 33251471, "Map Name": "N/A", "No": 232 }, "geometry": { "type": "Point", "coordinates": [ 72.66882978, 29.76524874 ] } },
+{ "type": "Feature", "properties": { "Name": "GMPS Aaqil Pur No. 1", "Sr__No": 233.0, "District": "Jhang", "Village": "Aaqil Pur No. 1", "EMIS_Code": 33221238.0, "Latitude": 31.699974, "Longitude": 72.2644, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 33221238, "Map Name": "N/A", "No": 233 }, "geometry": { "type": "Point", "coordinates": [ 72.2644, 31.699974 ] } }
+]
+}
