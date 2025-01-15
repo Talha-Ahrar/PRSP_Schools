@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Nankana Sahib.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS Talwandi", "Sr__No": 354.0, "District": "Nankana Sahib", "Village": "Talwandi", "EMIS_Code": 35610732.0, "Latitude": 31.395144, "Longitude": 73.679749, "Remarks": "Not looks like school building", "Map_Name": "N/A", "EMIS Code": 35610732, "Map Name": "N/A", "No": 354 }, "geometry": { "type": "Point", "coordinates": [ 73.679749, 31.395144 ] } }
+]
+}

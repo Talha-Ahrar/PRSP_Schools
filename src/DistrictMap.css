@@ -1,0 +1,279 @@
+.map-layout {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #f8fafc;
+}
+
+/* Map container */
+.map-container {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Sidebar */
+.district-sidebar {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.district-sidebar.hidden {
+  transform: translateX(100%);
+}
+
+.sidebar-header {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.sidebar-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.show-sidebar-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.show-sidebar-button:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-1px);
+}
+
+.district-sidebar input {
+  margin: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background-color: #f8fafc;
+  transition: all 0.2s ease;
+}
+
+.district-sidebar input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.district-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.district-sidebar li {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.district-sidebar li:hover {
+  background-color: #f8fafc;
+  color: #3b82f6;
+}
+
+@media (max-width: 640px) {
+  .district-info {
+    position: absolute;
+    padding-left: 1rem;
+    z-index: 999;
+    left: 2rem;
+    color: #ffffff;
+  }
+
+  .district-info h3 {
+    color: #f7f7f7;
+    font-weight: bold;
+
+    font-size: 0.875rem;
+  }
+  .district-info .space-y-2 {
+    display: none !important;
+}
+}
+
+@media (min-width: 1024px) {
+  .district-info {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    width: 80%;
+    max-width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .district-info h3 {
+    color: #1e293b;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.school-popup {
+  padding: 1rem;
+  min-width: 200px;
+}
+
+.school-popup h3 {
+  color: #1e293b;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.school-popup p {
+  margin: 0.5rem 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.direction-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.loading-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.1rem;
+  color: #64748b;
+  background-color: #f8fafc;
+}
+
+@media (prefers-color-scheme: dark) {
+  .map-layout {
+    background-color: #0f172a;
+  }
+
+  .district-sidebar {
+    background-color: #1e293b;
+    border-color: #334155;
+  }
+
+  .school-popup {
+    background-color: #1e293b;
+  }
+
+  .school-popup h3 {
+    color: #f1f5f9;
+  }
+
+  .school-popup p {
+    color: #cbd5e1;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-layout {
+    flex-direction: column;
+  }
+
+  .district-sidebar {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .map-container {
+    height: 60vh;
+  }
+}
+
+
+
+
+.district-label {
+  background: transparent !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.label-text {
+  font-size: 0.7rem; /* Increased base size for font */
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000,
+     2px  2px 3px rgba(0,0,0,0.5);
+  padding: 4px 8px;
+  white-space: nowrap;
+  pointer-events: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .label-text {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (max-width: 600px) {
+  .label-text {
+    font-size: 0.85rem; /* Increased smaller font size for small screens */
+  }
+}

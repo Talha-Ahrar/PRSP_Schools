@@ -1,0 +1,33 @@
+{
+    "districts": [
+      {
+        "districtName": "attock",
+        "linkName": "www.districtA.edu",
+        "schools": [
+          {
+            "name": "School 1",
+            "link": "www.districtA.edu/school1"
+          },
+          {
+            "name": "School 2",
+            "link": "www.districtA.edu/school2"
+          }
+        ]
+      },
+      {
+        "districtName": "Lahore",
+        "linkName": "www.districtB.edu",
+        "schools": [
+          {
+            "name": "School 3",
+            "link": "www.districtB.edu/school3"
+          },
+          {
+            "name": "School 4",
+            "link": "www.districtB.edu/school4"
+          }
+        ]
+      }
+    ]
+  }
+  

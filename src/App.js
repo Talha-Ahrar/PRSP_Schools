@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from 'react';
+import DistrictMap from './DistrictMap';
+import MapSchoolsTable from './mapschoolstable';
+import TabContainer from './TabContainer';
+import './App.css'; // Importing custom CSS for styling
 
 function App() {
+  const [activeTab, setActiveTab] = useState('district');
+
+  const handleTabChange = (tab) => {
+    console.log(tab,"tab-----")
+    setActiveTab(tab);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <TabContainer activeTab={activeTab} onTabChange={handleTabChange} />
+      <div className="content-container">
+        {activeTab === 'district' ? <DistrictMap /> : <MapSchoolsTable />}
+      </div>
     </div>
   );
 }

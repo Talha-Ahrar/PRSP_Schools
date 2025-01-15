@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Layyah.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS Dera Sultan Rajwani", "Sr__No": 309.0, "District": "Layyah", "Village": "Dera Sultan Rajwani", "EMIS_Code": 32210219.0, "Latitude": 30.857779, "Longitude": 71.556755, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32210219, "Map Name": "N/A", "No": 309 }, "geometry": { "type": "Point", "coordinates": [ 71.556755, 30.857779 ] } },
+{ "type": "Feature", "properties": { "Name": "GPS Khokhar Isra", "Sr__No": 310.0, "District": "Layyah", "Village": "Khokhar Isra", "EMIS_Code": 32220215.0, "Latitude": 31.142113, "Longitude": 70.973975, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32220215, "Map Name": "N/A", "No": 310 }, "geometry": { "type": "Point", "coordinates": [ 70.973975, 31.142113 ] } },
+{ "type": "Feature", "properties": { "Name": "GGPS Chak No 94-A TDA", "Sr__No": 311.0, "District": "Layyah", "Village": "Chak No 94-A TDA", "EMIS_Code": 32220340.0, "Latitude": 31.208103, "Longitude": 71.006434, "Remarks": "N/A", "Map_Name": "N/A", "EMIS Code": 32220340, "Map Name": "N/A", "No": 311 }, "geometry": { "type": "Point", "coordinates": [ 71.006434, 31.208103 ] } }
+]
+}

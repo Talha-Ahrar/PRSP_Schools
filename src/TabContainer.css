@@ -1,0 +1,45 @@
+/* TabContainer.css */
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5; 
+    padding: 10px;
+    /* position: fixed;  */
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 20000
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .tab-button.active-tab {
+    background-color: #388E3C; /* Darker green for active tab */
+    color: #fff;
+  }
+  
+  .tab-button:hover {
+    background-color: #66BB6A; /* Lighter green on hover */
+  }
+  
+  @media (max-width: 600px) {
+    .tabs-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .tab-button {
+      margin: 10px 0;
+      width: 80%;
+      font-size: 1rem;
+    }
+  }
+  

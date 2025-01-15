@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Sheikhupura.xlsx",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GPS Ghazi Kakka", "Sr__No": 442.0, "District": "Sheikhupura", "Village": "Ghazi Kakka", "EMIS_Code": 35410201.0, "Latitude": 31.738078, "Longitude": 31.738078, "Remarks": "Wrong Longitude", "Map_Name": "N/A", "EMIS Code": 35410201, "Map Name": "N/A", "No": 442 }, "geometry": { "type": "Point", "coordinates": [ 31.738078, 31.738078 ] } }
+]
+}

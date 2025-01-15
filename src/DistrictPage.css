@@ -1,0 +1,45 @@
+/* DistrictPage.css */
+.app-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .tabs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0;
+  }
+  
+  .tab-button {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s ease;
+    margin-right: 8px;
+  }
+  
+  .tab-button:hover {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .tab-button.active-tab {
+    background-color: #2e7d32;
+    color: white;
+  }
+  
+  .content-container {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }

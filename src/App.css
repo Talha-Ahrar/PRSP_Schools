@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
+/* App.css */
+
+.app-container { display: flex; flex-direction: column; align-items: center;
+   /* padding-top: 60px; */
+   }
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.content-container { width: 100%; max-width: 1200px; } @media (max-width: 600px) { .content-container { width: 90%; } }
+
+.tab-button {
+  /* padding: 10px 20px; */
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active-tab {
+  border-bottom: 2px solid #28a745; /* Green accent color */
+  color: #28a745;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.DistrictMap {
+  /* Add any specific styling for DistrictMap if needed */
+}
+
+.MapSchoolsTable {
+  /* Add any specific styling for MapSchoolsTable if needed */
+}
+
+
+
+/* school css */
+.table-container {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .controls-row {
+    grid-template-columns: 1fr;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-input {
+  padding: 10px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #166534;
+  outline: none;
+}
+
+.district-select {
+  padding: 10px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.district-select:focus {
+  border-color: #166534;
+  outline: none;
+}
+
+.stats-display {
+  padding: 8px 16px;
+  background-color: #f0fdf4;
+  border-radius: 4px;
+  color: #166534;
+  font-weight: 500;
+}
+
+.schools-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.schools-table th {
+  background-color: #166534;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.schools-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.schools-table tr:hover {
+  background-color: #f0fdf4;
+}
+
+.map-button {
+  padding: 8px 16px;
+  background-color: #166534;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.map-button:hover {
+  background-color: #14532d;
+}
+
+.pagination {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 16px 0;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-button {
+  padding: 8px 16px;
+  border: 1px solid #166534;
+  background-color: white;
+  color: #166534;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pagination-button:hover {
+  background-color: #166534;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination-button:disabled {
+  border-color: #e0e0e0;
+  color: #888;
+  cursor: not-allowed;
+  background-color: #f5f5f5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pagination-info {
+  color: #666;
+}
+
+
+
+
+
+.stats-panel {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  flex: 1;
+  background: linear-gradient(135deg, #348a58, #0d7739);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.stat-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stat-info {
+  flex-grow: 1;
+}
+
+.stat-icon {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.stat-icon svg {
+  color: white;
+  stroke-width: 2;
+}
+
+.stat-card h3 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.stat-card .value {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.export-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.export-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.export-button svg {
+  stroke-width: 2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stats-panel {
+    flex-direction: column;
+    padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .stat-card {
+    width: 100%;
   }
 }
